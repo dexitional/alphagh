@@ -1,0 +1,72 @@
+
+VC - 9914
+Pro-VC - 8619
+Registrar - 8007
+Librarian - 15570
+Provost,CoeS - 9607
+Provost,Humani - 9073
+Provost,Agric - 9981
+Provost,Code - 8216
+Provost,CoHAS - 15004
+Dir,Finance - 8349
+Dir,HR - 9109
+Dir,Acad - 8436 
+Dir, Audot - 7867
+Dir, Innov - 12738
+Dir, Plan QA - 8201
+Dir, Pub - 13968
+Dir, Phys Dev - 15506
+Dir, Hosp - 15457
+Dir, Legal - 8827
+Dir, Teach Sup - 9120
+Dir, ICT - 15450
+Dir, Coast Devp - 12724
+Dir, Counsel - 15057
+Dir, Institute - 15955
+Dir, Oil& Gas - 11637
+Dir, Gender & advo - 8934
+Dir, IEPA - 9944
+Dep Dir, Finance - 11868
+
+[9914,8619,8007,15570,9607,9073,9981,8216,15004,8349,9109,8436,7867,12738,8201,13968,15506,15457,8827,9120,15450,12724,15057,15955,11637,8934,9944,11868]
+["9914","8619","8007","15570","9607","9073","9981","8216","15004","8349","9109","8436","7867","12738","8201","13968","15506","15457","8827","9120","15450","12724","15057","15955","11637","8934","9944","11868"]
+
+No Pictures : [ ]
+
+
+
+
+HP Warning:  copy(/var/www/html/pixo/photos/staff/9914.jpg): failed to open stream: No such file or directory in /var/www/html/pixo/photos/official.php on line 17
+9914 photo Not Exist ! 
+PHP Warning:  copy(/var/www/html/pixo/photos/staff/8619.jpg): failed to open stream: No such file or directory in /var/www/html/pixo/photos/official.php on line 17
+8619 photo Not Exist ! 
+PHP Warning:  copy(/var/www/html/pixo/photos/staff/15570.jpg): failed to open stream: No such file or directory in /var/www/html/pixo/photos/official.php on line 17
+15570 photo Not Exist ! 
+PHP Warning:  copy(/var/www/html/pixo/photos/staff/9607.jpg): failed to open stream: No such file or directory in /var/www/html/pixo/photos/official.php on line 17
+9607 photo Not Exist ! 
+PHP Warning:  copy(/var/www/html/pixo/photos/staff/9981.jpg): failed to open stream: No such file or directory in /var/www/html/pixo/photos/official.php on line 17
+9981 photo Not Exist ! 
+PHP Warning:  copy(/var/www/html/pixo/photos/staff/15004.jpg): failed to open stream: No such file or directory in /var/www/html/pixo/photos/official.php on line 17
+15004 photo Not Exist ! 
+PHP Warning:  copy(/var/www/html/pixo/photos/staff/8349.jpg): failed to open stream: No such file or directory in /var/www/html/pixo/photos/official.php on line 17
+8349 photo Not Exist ! 
+PHP Warning:  copy(/var/www/html/pixo/photos/staff/9109.jpg): failed to open stream: No such file or directory in /var/www/html/pixo/photos/official.php on line 17
+9109 photo Not Exist ! 
+PHP Warning:  copy(/var/www/html/pixo/photos/staff/7867.jpg): failed to open stream: No such file or directory in /var/www/html/pixo/photos/official.php on line 17
+7867 photo Not Exist ! 
+PHP Warning:  copy(/var/www/html/pixo/photos/staff/13968.jpg): failed to open stream: No such file or directory in /var/www/html/pixo/photos/official.php on line 17
+13968 photo Not Exist ! 
+PHP Warning:  copy(/var/www/html/pixo/photos/staff/15506.jpg): failed to open stream: No such file or directory in /var/www/html/pixo/photos/official.php on line 17
+15506 photo Not Exist ! 
+PHP Warning:  copy(/var/www/html/pixo/photos/staff/15457.jpg): failed to open stream: No such file or directory in /var/www/html/pixo/photos/official.php on line 17
+15457 photo Not Exist ! 
+PHP Warning:  copy(/var/www/html/pixo/photos/staff/8827.jpg): failed to open stream: No such file or directory in /var/www/html/pixo/photos/official.php on line 17
+8827 photo Not Exist ! 
+PHP Warning:  copy(/var/www/html/pixo/photos/staff/15450.jpg): failed to open stream: No such file or directory in /var/www/html/pixo/photos/official.php on line 17
+15450 photo Not Exist ! 
+PHP Warning:  copy(/var/www/html/pixo/photos/staff/12724.jpg): failed to open stream: No such file or directory in /var/www/html/pixo/photos/official.php on line 17
+12724 photo Not Exist ! 
+PHP Warning:  copy(/var/www/html/pixo/photos/staff/15955.jpg): failed to open stream: No such file or directory in /var/www/html/pixo/photos/official.php on line 17
+15955 photo Not Exist ! 
+PHP Warning:  copy(/var/www/html/pixo/photos/staff/11868.jpg): failed to open stream: No such file or directory in /var/www/html/pixo/photos/official.php on line 17
+11868 photo Not Exist !     

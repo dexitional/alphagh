@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://dailyupdategh.com
+
+# Sitemaps
+Sitemap: https://dailyupdategh.com/sitemap.xml
