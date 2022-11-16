@@ -24,7 +24,7 @@ function NewsCard02({data:items}: Props) {
   
   return (
     <div className={styles.wrapper}>
-    { items?.map(( item:Post, i:React.Key ) => 
+    { items.length  && items?.map(( item:Post, i:React.Key ) => 
       <div key={i} className={styles.cover}>
         <Link href={`/${item.slug.current}`}>
           <img className={styles.image} src={ urlFor(item?.mainImage).url() } height={65} width={100} loading="lazy" />

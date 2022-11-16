@@ -7,7 +7,6 @@ interface Props {
 }
  
 const Home = ({ data } : Props) => {
- 
   return (
    <Layout post={null}>
       <IndexContainer data={data} />

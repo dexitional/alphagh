@@ -16,7 +16,7 @@ function ArticleContent({content,mainImage}:Props) {
          </div>
          }
 
-         { content && <article className="w-full prose lg:prose-xl">
+         { content && <article className="w-full prose lg:prose-lg">
             <PortableText 
                 className={`text-black/80`}
                 dataset={process.env.NEXT_PUBLIC_SANITY_DATASET!}

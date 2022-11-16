@@ -12,38 +12,74 @@ const styles = {
 
 
 
-function NewsCover04({ entertainment, politics, sports }: any) {
+function NewsCover04({ showbiz, politics, tech, lifestyle, sports, business }: any) {
+
    
-  const ent_item = entertainment[0];
-  const ent_items = entertainment.shift();
-  const pol_item = politics[0];
-  const pol_items = politics.shift();
-  const his_item = sports[0];
-  const his_items = sports.shift();
+   
+  const ent_item = showbiz && showbiz[0];
+  const ent_items = showbiz && showbiz.shift();
+  const pol_item = politics && politics[0];
+  const pol_items = politics && politics.shift();
+  const int_item = tech && tech[0];
+  const int_items = tech && tech.shift();
+
+  const opi_item = lifestyle && lifestyle[0];
+  const opi_items = lifestyle && lifestyle.shift();
+  const spos_item = sports && sports[0];
+  const spos_items = sports && sports.shift();
+  const bus_item = business && business[0];
+  const bus_items = business && business.shift();
+
+  console.log(showbiz)
 
   return (
     <div className={styles.main}>
+      {/*JSON.stringify({ showbiz, politics, foreign, opinion, sports, business })*/}
       <div className={styles.wrapper}>
-         <h3 className={styles.heading}>Entertainments</h3>
+         <h3 className={styles.heading}>Politics</h3>
          <div className={`${styles.box}`}>
-            <NewsCard01 data={ent_item} />
-            <NewsCard02 data={ent_items} />
+            {pol_item && <NewsCard01 data={pol_item} />}
+            {pol_items && <NewsCard02 data={pol_items} />}
          </div>
       </div>
 
       <div className={styles.wrapper}>
-         <h3 className={styles.heading}>Politics</h3>
+         <h3 className={styles.heading}>Entertainments</h3>
          <div className={`${styles.box}`}>
-            <NewsCard01 data={pol_item} />
-            <NewsCard02 data={pol_items} />
+            {ent_item && <NewsCard01 data={ent_item} />}
+            {ent_items && <NewsCard02 data={ent_items} />}
          </div>
       </div>
 
       <div className={styles.wrapper}>
          <h3 className={styles.heading}>Sports</h3>
          <div className={`${styles.box}`}>
-            <NewsCard01 data={his_item} />
-            <NewsCard02 data={his_items} />
+            {spos_item && <NewsCard01 data={spos_item} />}
+            {spos_items && <NewsCard02 data={spos_items} />}
+         </div>
+      </div>
+
+      <div className={styles.wrapper}>
+         <h3 className={styles.heading}>Technology</h3>
+         <div className={`${styles.box}`}>
+            {bus_item && <NewsCard01 data={bus_item} />}
+            {bus_items && <NewsCard02 data={bus_items} />}
+         </div>
+      </div>
+
+      <div className={styles.wrapper}>
+         <h3 className={styles.heading}>Lifestyle</h3>
+         <div className={`${styles.box}`}>
+            {int_item && <NewsCard01 data={int_item} />}
+            {int_items && <NewsCard02 data={int_items} />}
+         </div>
+      </div>
+
+      <div className={styles.wrapper}>
+         <h3 className={styles.heading}>Opinions</h3>
+         <div className={`${styles.box}`}>
+            {opi_item && <NewsCard01 data={opi_item} />}
+            {opi_items && <NewsCard02 data={opi_items} />}
          </div>
       </div>
     </div>
