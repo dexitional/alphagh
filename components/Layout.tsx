@@ -13,13 +13,13 @@ interface Props {
 
 const data = {
   site_name:`AlphaGh.News`,
-  site_desc:`Alphagh.news is the fastest growing news portal in Ghana. Get all breaking news updates, latest news headlines, local and world stories, showbiz, lifestyle etc.`,
-  site_footnote:`© 2022 AlphaGh Media - Developed and managed by K-Soft GH.`,
+  site_desc:`Alphahour.news is the fastest growing news portal in Ghana. Get all breaking news updates, latest news headlines, local and world stories, showbiz, lifestyle etc.`,
+  site_footnote:`© 2022 AlphahourNewsGh Media - Developed and managed by K-Soft GH.`,
   menu: [
     { title: 'Politics', slug:'politics', link: '/category/politics', visible: true },
     { title: 'Sports', slug:'sports', link: '/category/sports', visible: true },
     { title: 'Entertainment', slug:'showbiz', link: '/category/showbiz', visible: true },
-    { title: 'Technology', slug:'tech', link: '/category/lifestyle', visible: true },
+    { title: 'Tech', slug:'tech', link: '/category/tech', visible: true },
     { title: 'Lifestyle', slug:'lifestyle', link: '/category/lifestyle', visible: true },
   ],
   socials: {

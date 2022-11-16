@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../public/logo_foot.png';
+import Logo from '../public/logo_foot.jpg';
 import { FaFacebookF,FaInstagram,FaTwitter,FaYoutube,FaSearch } from 'react-icons/fa';
 import Link from 'next/link';
 
@@ -15,9 +15,9 @@ function Footer({ data } : Props) {
         <div className="flex flex-col justify-between pt-10">
            {/* <div className="max-w-5xl mx-auto">jj</div> */}
             <div className="max-w-5xl mx-auto md:py-6 flex flex-col space-y-6 md:space-y-0 md:flex-row justify-between space-x-6 text-slate-300">
-                <div className="mx-4 flex items-center justify-center border border-[#fcc52d] rounded-full md:rounded-md">
-                    {/*<img loading="lazy" className="w-52 object-contain" src={Logo.src} /> */}
-                    <div className="px-4 py-0.5 text-xl text-[#102520] font-bold bg-[#fcc52d] rounded-sm">alphagh<span className="text-sm text-yellow-900">.news</span></div>
+                <div className="mx-4 p-4 flex items-center justify-center border border-[#fcc52d] rounded-full md:rounded-md">
+                    <img loading="lazy" className="w-36 object-contain" src={Logo.src} /> {/**/}
+                    {/*<div className="px-4 py-0.5 text-xl text-[#102520] font-bold bg-[#fcc52d] rounded-sm">alphagh<span className="text-sm text-yellow-900">.news</span></div> */}
                 </div>
                 <div className="max-w-md">
                     <h3 className="text-lg font-bold">ABOUT US</h3>
