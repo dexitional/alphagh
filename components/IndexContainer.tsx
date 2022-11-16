@@ -22,7 +22,7 @@ function IndexContainer({data}:Props) {
         {/**/}
         <Spotlight data={data?.top} recent={data?.recent} />
         <NewsCover03 data={data?.top} />
-        <NewsCover04 showbiz={data?.showbiz} politics={data?.politics} foreign={data?.foreign} business={data?.business} opinion={data?.opinion} sports={data?.sports} />
+        <NewsCover04 showbiz={data?.showbiz} politics={data?.politics} tech={data?.tech} lifestyle={data?.lifestyle} opinion={data?.opinion} sports={data?.sports} />
         
         {/*
         <NewsCover01 />
