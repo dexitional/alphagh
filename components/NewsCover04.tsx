@@ -30,7 +30,7 @@ function NewsCover04({ showbiz, politics, tech, lifestyle, sports, business }: a
   const bus_item = business && business[0];
   const bus_items = business && business.shift();
 
-  console.log(showbiz)
+  console.log(tech)
 
   return (
     <div className={styles.main}>
@@ -75,7 +75,7 @@ function NewsCover04({ showbiz, politics, tech, lifestyle, sports, business }: a
          </div>
       </div>
 
-      <div className={styles.wrapper}>
+      <div className={`${styles.wrapper} hidden`}>
          <h3 className={styles.heading}>Opinions</h3>
          <div className={`${styles.box}`}>
             {opi_item && <NewsCard01 data={opi_item} />}
