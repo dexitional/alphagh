@@ -17,8 +17,8 @@ const Home = ({posts,features}: Props) => {
   return (
     <>
       <Head>
-        <title>Dailyupdategh.com | Category</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Alphahour.news | Category</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
      <Layout post={null}>
        <Features data={features} />

@@ -21,13 +21,13 @@ const Home = ({ post,recent }: Props) => {
   return (
     <>
       <Head>
-        <title>Dailyupdategh.com | Category</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Alphahour.news | Category</title>
+        <link rel="icon" href="/favicon.png" />
         <meta name="HandheldFriendly" content="true" />
         <meta property="og:title" content={post?.title} />
         <meta property="og:image" content={post?.mainImage && urlFor(post?.mainImage).width(600).url()} />
         <meta property="og:type" content="profile.image" />
-        <meta property="og:url" content={`https://alphagh.vercel.app/${post?.slug.current}`} />
+        <meta property="og:url" content={`https://alphahour.news/${post?.slug.current}`} />
       </Head>
       
       <Layout post={post}>
