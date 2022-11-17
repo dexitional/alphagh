@@ -33,7 +33,7 @@ function NewsCard01({data:item} : Props) {
           </Link>
           <div className={styles.details}>
               <Link href={`/${item?.slug.current}`}>
-                  <h3 className={styles.title}>{capitalize(item?.title)}</h3>
+                  <h3 className={styles.title}>{item?.title}</h3>
               </Link>
               <span className={styles.date}>{moment(item?._createdAt).format('LL')}</span>
           </div>
