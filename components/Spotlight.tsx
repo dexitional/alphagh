@@ -72,7 +72,6 @@ function Spotlight({ data,recent } : Props) {
                 </div>
                 </Link>
                 ))}
-                
             </div>
         </div>       
         
